@@ -8,6 +8,7 @@ class Dec2Hex
     public static void main(String args[])
     {
     System.out.println("Decimal to Hexadecimal Converter");
+    System.out.println("Enter an Integer:");
 	if (args.length > 0) 
         {
             try 
