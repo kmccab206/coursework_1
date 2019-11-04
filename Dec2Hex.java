@@ -49,7 +49,7 @@ class Dec2Hex{
                         System.out.println("Invalid Choice Please Try again");
                 }
             }catch(NoSuchElementException e){
-                System.out.println("Error: Timeout on user input");
+                System.out.println("Error: "+ e);
                 System.exit(0);
             }
         }while (menu() == 1  || menu() == 2);
